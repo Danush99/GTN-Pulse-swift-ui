@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120D7EEF2B871A5F00AC7DDD /* GTN_PulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D7EEE2B871A5F00AC7DDD /* GTN_PulseApp.swift */; };
+		120D7EF12B871A5F00AC7DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D7EF02B871A5F00AC7DDD /* ContentView.swift */; };
+		120D7EF32B871A6000AC7DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120D7EF22B871A6000AC7DDD /* Assets.xcassets */; };
+		120D7EF62B871A6000AC7DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120D7EF52B871A6000AC7DDD /* Preview Assets.xcassets */; };
+		120D7F002B871A6000AC7DDD /* GTN_PulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D7EFF2B871A6000AC7DDD /* GTN_PulseTests.swift */; };
+		120D7F0A2B871A6000AC7DDD /* GTN_PulseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D7F092B871A6000AC7DDD /* GTN_PulseUITests.swift */; };
+		120D7F0C2B871A6000AC7DDD /* GTN_PulseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D7F0B2B871A6000AC7DDD /* GTN_PulseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		120D7EFC2B871A6000AC7DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 120D7EE32B871A5F00AC7DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120D7EEA2B871A5F00AC7DDD;
+			remoteInfo = "GTN-Pulse";
+		};
+		120D7F062B871A6000AC7DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 120D7EE32B871A5F00AC7DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120D7EEA2B871A5F00AC7DDD;
+			remoteInfo = "GTN-Pulse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120D7EEB2B871A5F00AC7DDD /* GTN-Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTN-Pulse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120D7EEE2B871A5F00AC7DDD /* GTN_PulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTN_PulseApp.swift; sourceTree = "<group>"; };
+		120D7EF02B871A5F00AC7DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		120D7EF22B871A6000AC7DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120D7EF52B871A6000AC7DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		120D7EFB2B871A6000AC7DDD /* GTN-PulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GTN-PulseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120D7EFF2B871A6000AC7DDD /* GTN_PulseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTN_PulseTests.swift; sourceTree = "<group>"; };
+		120D7F052B871A6000AC7DDD /* GTN-PulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GTN-PulseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120D7F092B871A6000AC7DDD /* GTN_PulseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTN_PulseUITests.swift; sourceTree = "<group>"; };
+		120D7F0B2B871A6000AC7DDD /* GTN_PulseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTN_PulseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120D7EE82B871A5F00AC7DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7EF82B871A6000AC7DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7F022B871A6000AC7DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120D7EE22B871A5F00AC7DDD = {
+			isa = PBXGroup;
+			children = (
+				120D7EED2B871A5F00AC7DDD /* GTN-Pulse */,
+				120D7EFE2B871A6000AC7DDD /* GTN-PulseTests */,
+				120D7F082B871A6000AC7DDD /* GTN-PulseUITests */,
+				120D7EEC2B871A5F00AC7DDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		120D7EEC2B871A5F00AC7DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120D7EEB2B871A5F00AC7DDD /* GTN-Pulse.app */,
+				120D7EFB2B871A6000AC7DDD /* GTN-PulseTests.xctest */,
+				120D7F052B871A6000AC7DDD /* GTN-PulseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120D7EED2B871A5F00AC7DDD /* GTN-Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				120D7EEE2B871A5F00AC7DDD /* GTN_PulseApp.swift */,
+				120D7EF02B871A5F00AC7DDD /* ContentView.swift */,
+				120D7EF22B871A6000AC7DDD /* Assets.xcassets */,
+				120D7EF42B871A6000AC7DDD /* Preview Content */,
+			);
+			path = "GTN-Pulse";
+			sourceTree = "<group>";
+		};
+		120D7EF42B871A6000AC7DDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				120D7EF52B871A6000AC7DDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		120D7EFE2B871A6000AC7DDD /* GTN-PulseTests */ = {
+			isa = PBXGroup;
+			children = (
+				120D7EFF2B871A6000AC7DDD /* GTN_PulseTests.swift */,
+			);
+			path = "GTN-PulseTests";
+			sourceTree = "<group>";
+		};
+		120D7F082B871A6000AC7DDD /* GTN-PulseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				120D7F092B871A6000AC7DDD /* GTN_PulseUITests.swift */,
+				120D7F0B2B871A6000AC7DDD /* GTN_PulseUITestsLaunchTests.swift */,
+			);
+			path = "GTN-PulseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120D7EEA2B871A5F00AC7DDD /* GTN-Pulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120D7F0F2B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-Pulse" */;
+			buildPhases = (
+				120D7EE72B871A5F00AC7DDD /* Sources */,
+				120D7EE82B871A5F00AC7DDD /* Frameworks */,
+				120D7EE92B871A5F00AC7DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTN-Pulse";
+			productName = "GTN-Pulse";
+			productReference = 120D7EEB2B871A5F00AC7DDD /* GTN-Pulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		120D7EFA2B871A6000AC7DDD /* GTN-PulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120D7F122B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-PulseTests" */;
+			buildPhases = (
+				120D7EF72B871A6000AC7DDD /* Sources */,
+				120D7EF82B871A6000AC7DDD /* Frameworks */,
+				120D7EF92B871A6000AC7DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120D7EFD2B871A6000AC7DDD /* PBXTargetDependency */,
+			);
+			name = "GTN-PulseTests";
+			productName = "GTN-PulseTests";
+			productReference = 120D7EFB2B871A6000AC7DDD /* GTN-PulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		120D7F042B871A6000AC7DDD /* GTN-PulseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120D7F152B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-PulseUITests" */;
+			buildPhases = (
+				120D7F012B871A6000AC7DDD /* Sources */,
+				120D7F022B871A6000AC7DDD /* Frameworks */,
+				120D7F032B871A6000AC7DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120D7F072B871A6000AC7DDD /* PBXTargetDependency */,
+			);
+			name = "GTN-PulseUITests";
+			productName = "GTN-PulseUITests";
+			productReference = 120D7F052B871A6000AC7DDD /* GTN-PulseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120D7EE32B871A5F00AC7DDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					120D7EEA2B871A5F00AC7DDD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					120D7EFA2B871A6000AC7DDD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 120D7EEA2B871A5F00AC7DDD;
+					};
+					120D7F042B871A6000AC7DDD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 120D7EEA2B871A5F00AC7DDD;
+					};
+				};
+			};
+			buildConfigurationList = 120D7EE62B871A5F00AC7DDD /* Build configuration list for PBXProject "GTN-Pulse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120D7EE22B871A5F00AC7DDD;
+			productRefGroup = 120D7EEC2B871A5F00AC7DDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120D7EEA2B871A5F00AC7DDD /* GTN-Pulse */,
+				120D7EFA2B871A6000AC7DDD /* GTN-PulseTests */,
+				120D7F042B871A6000AC7DDD /* GTN-PulseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120D7EE92B871A5F00AC7DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D7EF62B871A6000AC7DDD /* Preview Assets.xcassets in Resources */,
+				120D7EF32B871A6000AC7DDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7EF92B871A6000AC7DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7F032B871A6000AC7DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120D7EE72B871A5F00AC7DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D7EF12B871A5F00AC7DDD /* ContentView.swift in Sources */,
+				120D7EEF2B871A5F00AC7DDD /* GTN_PulseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7EF72B871A6000AC7DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D7F002B871A6000AC7DDD /* GTN_PulseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120D7F012B871A6000AC7DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120D7F0C2B871A6000AC7DDD /* GTN_PulseUITestsLaunchTests.swift in Sources */,
+				120D7F0A2B871A6000AC7DDD /* GTN_PulseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		120D7EFD2B871A6000AC7DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 120D7EEA2B871A5F00AC7DDD /* GTN-Pulse */;
+			targetProxy = 120D7EFC2B871A6000AC7DDD /* PBXContainerItemProxy */;
+		};
+		120D7F072B871A6000AC7DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 120D7EEA2B871A5F00AC7DDD /* GTN-Pulse */;
+			targetProxy = 120D7F062B871A6000AC7DDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		120D7F0D2B871A6000AC7DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		120D7F0E2B871A6000AC7DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120D7F102B871A6000AC7DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTN-Pulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-Pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120D7F112B871A6000AC7DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTN-Pulse/Preview Content\"";
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-Pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		120D7F132B871A6000AC7DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-PulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTN-Pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GTN-Pulse";
+			};
+			name = Debug;
+		};
+		120D7F142B871A6000AC7DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-PulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTN-Pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GTN-Pulse";
+			};
+			name = Release;
+		};
+		120D7F162B871A6000AC7DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-PulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GTN-Pulse";
+			};
+			name = Debug;
+		};
+		120D7F172B871A6000AC7DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NZKZB42F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.GTN-PulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GTN-Pulse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120D7EE62B871A5F00AC7DDD /* Build configuration list for PBXProject "GTN-Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D7F0D2B871A6000AC7DDD /* Debug */,
+				120D7F0E2B871A6000AC7DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120D7F0F2B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D7F102B871A6000AC7DDD /* Debug */,
+				120D7F112B871A6000AC7DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120D7F122B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-PulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D7F132B871A6000AC7DDD /* Debug */,
+				120D7F142B871A6000AC7DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120D7F152B871A6000AC7DDD /* Build configuration list for PBXNativeTarget "GTN-PulseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120D7F162B871A6000AC7DDD /* Debug */,
+				120D7F172B871A6000AC7DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120D7EE32B871A5F00AC7DDD /* Project object */;
+}
